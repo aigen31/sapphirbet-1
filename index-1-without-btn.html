@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SapphireBet</title>
+	<link rel="stylesheet" href="css/app.min.css">
+	<script src="libs/jquery/dist/jquery.min.js"></script>
+	<script src="libs/select2/dist/js/select2.min.js"></script>
+	<script src="libs/RobinHerbots-Inputmask/dist/jquery.inputmask.min.js"></script>
+	<script src="js/app.js"></script>
+</head>
+
+<body>
+
+<section class="s s-bonus" style="background-image: url(./images/dist/background.jpg)">
+	<img src="images/dist/logo.png" alt="" class="logo">
+
+	<div class="s-bonus__wrapper --1">
+		<form class="s-bonus__form" method="POST">
+			<div class="s-bonus__form-wrapper --br-md-none">
+				<h2 class="h2 s-bonus__h2">
+					Bonus on deposit up to 1500 EUR
+				</h2>
+
+				<div class="s-bonus__tel-input">
+					<select name="country-code" class="s-bonus__tel-contry" title="Country Code" id="">
+					</select>
+
+					<input type="tel" name="tel" class="s-bonus__tel-area">
+				</div>
+
+				<div class="s-bonus__row">
+					<input class="s-bonus__input" type="email" name="email" id="email" required placeholder="E-mail">
+				</div>
+
+				<div class="s-bonus__row">
+					<div class="password">
+						<input class="s-bonus__input" type="password" name="password" id="password" required placeholder="Password">
+						<div class="password__show" id="password__show"></div>
+					</div>
+				</div>
+
+				<div class="s-bonus__checkbox">
+					<div class="custom-checkbox">
+						<input class="input" type="checkbox" required>
+						<div class="checkmark"></div>
+					</div>
+					<label>
+						I confirm that I have read and agree to the company's <a href="#">Terms and Conditions</a> and <a
+							href="#">Privacy Policy</a> and that I am of legal age.
+					</label>
+				</div>
+
+				<button class="btn s-bonus__register-btn">
+					Register
+				</button>
+
+				<div class="s-bonus__have-account">
+					<p>
+						Already have an account?
+					</p>
+
+					<a href="#">Sign In</a>
+				</div>
+
+				<!-- <button class="btn s-bonus__register-btn s-bonus__register-btn--outline --outline">
+					<img src="images/dist/google_play.svg" alt="" class="google-play-icon">download app
+				</button> -->
+			</div>
+
+			<div class="s-bonus__sidebar --md-inherit">
+				<div class="s-bonus__sidebar-item">
+					<img src="images/dist/football.svg" alt="" class="s-bonus__sidebar-img">
+
+					<div class="s-bonus__sidebar-item-row">
+						<label class="s-bonus__sidebar-item-radio">
+							<div class="s-bonus__sidebar-radio-input-wrapper">
+								<input type="radio" name="bonus" id="" checked>
+								<div class="s-bonus__sidebar-radio-input">
+								</div>
+							</div>
+							Sports
+						</label>
+
+						<p class="s-bonus__sidebar-item-text">
+							Welcome bonus on your 1st deposit up to 100 EUR
+						</p>
+					</div>
+				</div>
+
+				<div class="s-bonus__sidebar-item">
+					<img src="images/dist/casino.svg" alt="" class="s-bonus__sidebar-img">
+
+					<div class="s-bonus__sidebar-item-row">
+						<label class="s-bonus__sidebar-item-radio">
+							<div class="s-bonus__sidebar-radio-input-wrapper">
+								<input type="radio" name="bonus" id="">
+								<div class="s-bonus__sidebar-radio-input">
+								</div>
+							</div>
+							Casino + games
+						</label>
+
+						<p class="s-bonus__sidebar-item-text">
+							Welcome package up to 1500 EUR + 150 FS
+						</p>
+					</div>
+				</div>
+
+				<div class="s-bonus__sidebar-item">
+					<img src="images/dist/free_bet.svg" alt="" class="s-bonus__sidebar-img">
+
+					<div class="s-bonus__sidebar-item-row">
+						<label class="s-bonus__sidebar-item-radio">
+							<div class="s-bonus__sidebar-radio-input-wrapper">
+								<input type="radio" name="bonus" id="">
+								<div class="s-bonus__sidebar-radio-input">
+								</div>
+							</div>
+							Free bet
+						</label>
+
+						<p class="s-bonus__sidebar-item-text">
+							Bonus for losing your first bet
+						</p>
+					</div>
+				</div>
+
+				<div class="s-bonus__sidebar-item">
+					<img src="images/dist/free_bet.svg" alt="" class="s-bonus__sidebar-img">
+
+					<div class="s-bonus__sidebar-item-row">
+						<label class="s-bonus__sidebar-item-radio">
+							<div class="s-bonus__sidebar-radio-input-wrapper">
+								<input type="radio" name="bonus" id="">
+								<div class="s-bonus__sidebar-radio-input">
+								</div>
+							</div>
+							Free bet
+						</label>
+
+						<p class="s-bonus__sidebar-item-text">
+							Free bet on your first deposit up to 100 EUR
+						</p>
+					</div>
+				</div>
+
+				<div class="s-bonus__sidebar-item">
+					<img src="images/dist/reject.svg" alt="" class="s-bonus__sidebar-img">
+
+					<div class="s-bonus__sidebar-item-row">
+						<label class="s-bonus__sidebar-item-radio">
+							<div class="s-bonus__sidebar-radio-input-wrapper">
+								<input type="radio" name="bonus" id="">
+								<div class="s-bonus__sidebar-radio-input">
+								</div>
+							</div>
+							Reject bonuses
+						</label>
+
+						<p class="s-bonus__sidebar-item-text">
+							Make your selection later
+						</p>
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
+
+	<img src="images/dist/girl_full logo_blue.png" alt="" class="img s-bonus__img --1">
+
+	<img src="images/dist/girl_full logo_blue-1.png" alt="" class="img s-bonus__img --md">
+
+	<img src="images/dist/light.svg" alt="" class="img s-bonus__light">
+
+	<img src="images/dist/light-1.svg" alt="" class="img s-bonus__light --md">
+</section>
+
+<script>
+	$(function () {
+		setTimeout(function () {
+			if ($(window).outerWidth() > 768) {
+				if ($('.s-bonus__form-wrapper').outerHeight() < $('.s-bonus__sidebar').outerHeight()) {
+					$('.s-bonus__form-wrapper').css('height', $('.s-bonus__sidebar').outerHeight())
+				} else {
+					$('.s-bonus__sidebar').css('height', $('.s-bonus__form-wrapper').outerHeight())
+				}
+			}
+		}, 0)
+	})
+</script>
+
+
+</body>
+</html>
