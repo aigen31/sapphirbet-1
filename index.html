@@ -12,6 +12,14 @@
 </head>
 
 <body>
+	<div class="language-switcher">
+		<select name="lang" class="language-switcher__select">
+			<option value="us">en</option>
+			<option value="pt">pt</option>
+			<option value="es">es</option>
+			<option value="hi">hi</option>
+		</select>
+	</div>
 
 <section class="s s-bonus" style="background-image: url(./images/dist/background.jpg)">
 	<img src="images/dist/logo.png" alt="" class="logo">
@@ -19,7 +27,7 @@
 	<div class="s-bonus__wrapper">
 		<form class="s-bonus__form" method="POST">
 			<div class="s-bonus__form-wrapper">
-				<h2 class="h2 s-bonus__h2">
+				<h2 class="h2 s-bonus__h2" data-translate="0">
 					Bonus on deposit up to 1500 EUR
 				</h2>
 
@@ -28,6 +36,17 @@
 					</select>
 
 					<input type="tel" name="tel" class="s-bonus__tel-area">
+				</div>
+
+				<div class="s-bonus__currency-input">
+					<select name="currency" class="s-bonus__currency" title="Сurrency" id="">
+						<option value="pt-btl">PT-BRL</option>
+						<option value="in-inr">IN-INR</option>
+						<option value="es-mxn">ES-MXN</option>
+						<option value="en-usd">EN-USD</option>
+						<option value="clr">CLP</option>
+						<option value="eur">EUR</option>
+					</select>
 				</div>
 
 				<div class="s-bonus__row">
@@ -46,26 +65,27 @@
 						<input class="input" type="checkbox" required>
 						<div class="checkmark"></div>
 					</div>
-					<label>
+					<label class="s-bonus__accept" data-translate="1">
 						I confirm that I have read and agree to the company's <a href="#">Terms and Conditions</a> and <a
 							href="#">Privacy Policy</a> and that I am of legal age.
 					</label>
 				</div>
 
-				<button class="btn s-bonus__register-btn">
+				<button class="btn s-bonus__register-btn" data-translate="15">
 					Register
 				</button>
 
 				<div class="s-bonus__have-account">
-					<p>
+					<p class="s-bonus__have-account-text" data-translate="2">
 						Already have an account?
 					</p>
 
-					<a href="#">Sign In</a>
+					<a href="#" class="s-bonus__have-account-sign-in" data-translate="3">Sign In</a>
 				</div>
 
 				<button class="btn s-bonus__register-btn s-bonus__register-btn--outline --outline">
-					<img src="images/dist/google_play.svg" alt="" class="google-play-icon">download app
+					<img src="images/dist/google_play.svg" alt="" class="google-play-icon"><span data-translate="4">download
+						app</span>
 				</button>
 			</div>
 
@@ -80,10 +100,12 @@
 								<div class="s-bonus__sidebar-radio-input">
 								</div>
 							</div>
-							Sports
+							<span data-translate="5">
+								Sports
+							</span>
 						</label>
 
-						<p class="s-bonus__sidebar-item-text">
+						<p class="s-bonus__sidebar-item-text" data-translate="6">
 							Welcome bonus on your 1st deposit up to 100 EUR
 						</p>
 					</div>
@@ -99,10 +121,12 @@
 								<div class="s-bonus__sidebar-radio-input">
 								</div>
 							</div>
-							Casino + games
+							<span data-translate="7">
+								Casino + games
+							</span>
 						</label>
 
-						<p class="s-bonus__sidebar-item-text">
+						<p class="s-bonus__sidebar-item-text" data-translate="8">
 							Welcome package up to 1500 EUR + 150 FS
 						</p>
 					</div>
@@ -118,10 +142,12 @@
 								<div class="s-bonus__sidebar-radio-input">
 								</div>
 							</div>
-							Free bet
+							<span data-translate="9">
+								Free bet
+							</span>
 						</label>
 
-						<p class="s-bonus__sidebar-item-text">
+						<p class="s-bonus__sidebar-item-text" data-translate="10">
 							Bonus for losing your first bet
 						</p>
 					</div>
@@ -137,10 +163,12 @@
 								<div class="s-bonus__sidebar-radio-input">
 								</div>
 							</div>
-							Free bet
+							<span data-translate="11">
+								Free bet
+							</span>
 						</label>
 
-						<p class="s-bonus__sidebar-item-text">
+						<p class="s-bonus__sidebar-item-text" data-translate="12">
 							Free bet on your first deposit up to 100 EUR
 						</p>
 					</div>
@@ -156,10 +184,12 @@
 								<div class="s-bonus__sidebar-radio-input">
 								</div>
 							</div>
-							Reject bonuses
+							<span data-translate="13">
+								Reject bonuses
+							</span>
 						</label>
 
-						<p class="s-bonus__sidebar-item-text">
+						<p class="s-bonus__sidebar-item-text" data-translate="14">
 							Make your selection later
 						</p>
 					</div>

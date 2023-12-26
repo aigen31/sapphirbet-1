@@ -1,0 +1,18 @@
+[
+	{
+		"country": "pt",
+		"currency": "pt-btl"
+	},
+	{
+		"country": "hi",
+		"currency": "in-inr"
+	},
+	{
+		"country": "es",
+		"currency": "es-mxn"
+	},
+	{
+		"country": "us",
+		"currency": "en-usd"
+	}
+]
